@@ -1,6 +1,8 @@
 # ConversorDec2Bin
+'''python
 s="Python syntax highlighting"
 print s
+'''
 def dec2bin(numero_decimal, numero_bits):
     numero_binario = bin(numero_decimal)
     numero_binario = numero_binario[2:len(numero_binario)]  # quita el "0b" del principio
